@@ -1,5 +1,5 @@
 
-![Logo](/screenshots/Logo.png)
+![Logo](/screenshots/FrostLogoV2.png)
 
 # Cloud Client
 Cloud Client is an open source Minecraft PVP Client for 1.7.10 and 1.8.9 using the Forge API.
