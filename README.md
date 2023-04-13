@@ -1,11 +1,11 @@
 
 <p align="center">
-  <img src="/screenshots/FrostLogoV2.png" alt="Logo" width="350" height="350">
+  <img src="/screenshots/FrostLogoV2.png" alt="Logo" width="200" height="200">
 </p>
 
 
-# Cloud Client
-Cloud Client is an open source Minecraft PVP Client for 1.7.10 and 1.8.9 using the Forge API.
+# FrostClient
+FrostClient is an open source Minecraft PVP Client(Based on CloudClient) for 1.7.10 and 1.8.9 using the Forge API.
 
 ## Downloading
 - Download the mod from the Releases section here
