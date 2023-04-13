@@ -1,5 +1,7 @@
 
-<img src="/screenshots/FrostLogoV2.png" alt="Logo" width="200" height="200">
+<p align="center">
+  <img src="/screenshots/FrostLogoV2.png" alt="Logo" width="500" height="500">
+</p>
 
 
 # Cloud Client
