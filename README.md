@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="/screenshots/FrostLogoV2.png" alt="Logo" width="500" height="500">
+  <img src="/screenshots/FrostLogoV2.png" alt="Logo" width="350" height="350">
 </p>
 
 
