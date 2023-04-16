@@ -144,7 +144,7 @@ public class Panel {
         Helper2D.drawPicture(x + w - 25, y + 5, 20, 20, color, "icon/cross.png");
 
         Helper2D.drawPicture(x + 2, y - 1, 35, 35, color, "cloudlogo.png");
-        Cloud.INSTANCE.fontHelper.size40.drawString(Cloud.modName, x + 37, y + 6, color);
+        Cloud.INSTANCE.fontHelper.size40.drawString("Frost Client", x + 37, y + 6, color);
 
         /*
         Buttons are only drawn if the Sidebar is on the mods tab

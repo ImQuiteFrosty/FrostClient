@@ -92,8 +92,8 @@ public class HudEditor extends GuiScreen {
         animateLogo.update();
         GLHelper.startScissor(0, height / 2 - 78, width, 73);
         Cloud.INSTANCE.fontHelper.size40.drawString(
-                Cloud.modName,
-                width / 2f - Cloud.INSTANCE.fontHelper.size40.getStringWidth(Cloud.modName) / 2f,
+                "Frost Client",
+                width / 2f - Cloud.INSTANCE.fontHelper.size40.getStringWidth("Frost Client") / 2f,
                 height / 2f + 36 - animateLogo.getValueI(),
                 color
         );
