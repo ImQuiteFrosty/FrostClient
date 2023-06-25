@@ -35,8 +35,8 @@ public class Cloud {
     @Mod.Instance()
     public static Cloud INSTANCE;
 
-    public static final String modID = "frostmc";
-    public static final String modName = "Frost Client";
+    public static final String modID = "cloudmc";
+    public static final String modName = "Cloud";
     public static final String modVersion = "1.4.1 [1.8.9]";
 
     public Minecraft mc = Minecraft.getMinecraft();
