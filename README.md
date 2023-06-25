@@ -16,10 +16,11 @@ FrostClient is an open source Minecraft PVP Client(Based on CloudClient) for 1.7
 ![TitleScreen](https://media.discordapp.net/attachments/1117324391869595680/1122617589688979496/image.png?width=1154&height=610)
 
 ### HudEditor
-![TitleScreen](/screenshots/HudEditor.png)
+![TitleScreen](https://media.discordapp.net/attachments/1117324391869595680/1122617883822936106/image.png?width=1157&height=610)
 
 ### ModMenu
-![TitleScreen](/screenshots/ModMenu.png)
+![TitleScreen](https://media.discordapp.net/attachments/1117324391869595680/1122618027217780827/image.png?width=1149&height=610)
+
 ## Workspace Setup
 1. Clone or download the repository either using git or the zip download.
 2. Open the folder, either `1.7.10\cloudclient` or `1.8.9\cloudclient` and copy the path.
