@@ -13,7 +13,7 @@ FrostClient is an open source Minecraft PVP Client(Based on CloudClient) for 1.7
 
 ## Screenshots
 ### TitleScreen
-![TitleScreen](/screenshots/TitleScreen.png)
+![TitleScreen](https://media.discordapp.net/attachments/1117324391869595680/1122617589688979496/image.png?width=1154&height=610)
 
 ### HudEditor
 ![TitleScreen](/screenshots/HudEditor.png)
