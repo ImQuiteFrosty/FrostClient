@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coming Soon...</title>
+  <style>
+    body {
+      background-color: #222;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    h1 {
+      font-size: 64px;
+      margin-bottom: 10px;
+      letter-spacing: 4px;
+    }
+    
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+      max-width: 600px;
+      text-align: center;
+    }
+    
+    .countdown {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+      font-size: 36px;
+      text-shadow: none;
+    }
+    
+    .countdown span {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 5px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .countdown span:last-child {
+      margin-right: 0;
+    }
+    
+    .countdown-label {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #fff;
+      font-size: 24px;
+      text-decoration: none;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+    }
+    
+    .social-icons a:hover {
+      opacity: 1;
+    }
+    
+    .background-img {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    
+    .snowflake {
+      position: absolute;
+      top: -10px;
+      width: 20px;
+      height: 20px;
+      background-color: #fff;
+      border-radius: 50%;
+      animation: snowfall linear infinite;
+      pointer-events: none;
+      z-index: 9999;
+    }
+    
+    @keyframes snowfall {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Coming Soon...</h1>
+    <p>Exciting things are coming soon. Stay tuned for an unforgettable experience!</p>
+    
+    <div class="countdown">
+      <span id="days">0</span>
+      <span class="countdown-label">Days</span>
+      <span id="hours">0</span>
+      <span class="countdown-label">Hours</span>
+      <span id="minutes">0</span>
+      <span class="countdown-label">Minutes</span>
+      <span id="seconds">0</span>
+      <span class="countdown-label">Seconds</span>
+    </div>
+    
+    <div class="social-icons">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+    </div>
+  </div>
+  
+  <div class="background-img"></div>
+  
+  <script>
+    // Calculate the remaining time until launch
+    var countDownDate = new Date("September 1, 2023 00:00:00").getTime();
+    
+    var countdownFunction = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+      
+      if (distance < 0) {
+        clearInterval(countdownFunction);
+        document.getElementById("days").innerHTML = "0";
+        document.getElementById("hours").innerHTML = "0";
+        document.getElementById("minutes").innerHTML = "0";
+        document.getElementById("seconds").innerHTML = "0";
+      }
+    }, 1000);
+    
+    // Create snowflakes dynamically
+    function createSnowflakes() {
+      const container = document.querySelector(".background-img");
+      const numSnowflakes = 50;
+      
+      for (let i = 0; i < numSnowflakes; i++) {
+        const snowflake = document.createElement("div");
+        snowflake.classList.add("snowflake");
+        snowflake.style.left = Math.random() * window.innerWidth + "px";
+        snowflake.style.animationDuration = (Math.random() * 5 + 5) + "s";
+        container.appendChild(snowflake);
+      }
+    }
+    
+    createSnowflakes();
+  </script>
+</body>
+</html>
