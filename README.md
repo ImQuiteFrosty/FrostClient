@@ -8,8 +8,7 @@
 FrostClient is an open source Minecraft PVP Client(Based on CloudClient) for 1.7.10 and 1.8.9 using the Forge API.
 
 ## Downloading
-- Download the mod from the Releases section here
-- Download the mod using the [Installer](https://github.com/CloudClientDev/cloudinstaller)
+- Coming Soon...
 
 ## Screenshots
 ### TitleScreen
