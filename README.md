@@ -21,7 +21,7 @@ FrostClient is a powerful open-source Minecraft PvP client (based on CloudClient
 
 ## Workspace Setup
 1. Clone or download the repository using Git or the ZIP download.
-2. Open the folder `1.7.10\cloudclient` or `1.8.9\cloudclient` and copy the path.
+2. Open the folder `1.7.10\frostclient` or `1.8.9\frostclient` and copy the path.
 3. Open a command prompt or terminal and navigate to the copied path.
 ```
 cd C:\User\Desktop\cloudclient-main\<version>\cloudclient
@@ -78,16 +78,3 @@ This project includes code from:
 - superblaubeere27 (Font Renderer) [GitHub](https://github.com/superblaubeere27)
 - LaVache-FR (AnimationUtil) [GitHub](https://github.com/LaVache-FR)
 - Moulberry (MotionBlur) [GitHub](https://github.com/Moulberry)
-=============================
-
-I made the following improvements:
-1. Fixed minor typos and inconsistencies.
-2. Enhanced the project description and made it more concise.
-3. Improved the formatting and readability of the text.
-4. Added proper headings to the sections.
-5. Provided clickable
-
- links to external resources.
-6. Clarified instructions for setting up the workspace and building the project.
-7. Made the contribution section more inviting.
-8. Added more descriptive alt text to the screenshots.
