@@ -2,12 +2,11 @@
   <img src="/screenshots/FrostLogoV2.png" alt="Logo" width="200" height="200">
 </p>
 
-
 # FrostClient
-FrostClient is a powerful open-source Minecraft PvP client (based on CloudClient) designed for Minecraft versions 1.7.10 and 1.8.9 using the Forge API.
+FrostClient is a powerful open-source Minecraft PvP client (based on CloudClient) designed for Minecraft versions 1.8.9 using the Forge API.
 
 ## Download
-- Download link coming soon...
+https://quitefrosty.github.io/FrostClient/
 
 ## Screenshots
 ### Title Screen
